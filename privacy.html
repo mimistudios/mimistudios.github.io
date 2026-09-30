@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Nine Lives Inc.</title>
+<meta name="description" content="Privacy policy for Nine Lives Inc., a cozy idle game about running an afterlife sanctuary for cats.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --plum: #3e2f63;
+    --plum-soft: #6b5b95;
+    --lilac: #b3a2e6;
+    --peach: #ffc9b0;
+    --paper: #fdfbff;
+    --butter: #ffe08a;
+    --space-1: 8px; --space-2: 16px; --space-3: 24px; --space-4: 40px; --space-5: 64px;
+    --spring: cubic-bezier(.34, 1.56, .64, 1);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    color: var(--plum);
+    font: 400 17px/1.7 "Atkinson Hyperlegible", system-ui, sans-serif;
+    background:
+      radial-gradient(60% 40% at 15% 0%, rgba(255, 255, 255, .45), transparent 70%),
+      radial-gradient(50% 35% at 90% 100%, rgba(255, 224, 138, .35), transparent 70%),
+      linear-gradient(180deg, var(--lilac) 0%, #d9c3ee 45%, var(--peach) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  body::before {
+    content: ""; position: fixed; inset: 0; pointer-events: none; opacity: .18; mix-blend-mode: soft-light;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  .wrap { position: relative; max-width: 760px; margin: 0 auto; padding: var(--space-4) var(--space-2) var(--space-5); }
+  header { text-align: center; margin-bottom: var(--space-4); }
+  .lives { display: inline-flex; gap: 4px; margin-bottom: var(--space-2); }
+  .lives svg { width: 20px; height: 20px; }
+  .brand {
+    font: 800 15px/1 "Sniglet", sans-serif; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--plum-soft); text-decoration: none; display: inline-block;
+  }
+  h1 {
+    font: 800 clamp(38px, 8vw, 56px)/1.05 "Sniglet", sans-serif; letter-spacing: -0.03em;
+    margin: var(--space-1) 0 var(--space-2);
+  }
+  .date { font-size: 15px; color: var(--plum-soft); margin: 0; }
+  .card {
+    background: var(--paper);
+    border: 3px solid var(--plum);
+    border-radius: 24px;
+    padding: var(--space-4) clamp(20px, 5vw, 48px);
+    box-shadow: 0 6px 0 var(--plum), 0 18px 40px -12px rgba(62, 47, 99, .35), 0 40px 80px -30px rgba(62, 47, 99, .25);
+  }
+  .summary {
+    background: var(--butter);
+    border: 3px solid var(--plum);
+    border-radius: 18px;
+    padding: var(--space-3);
+    margin: 0 0 var(--space-4);
+    box-shadow: 0 4px 0 var(--plum);
+    transform: rotate(-0.6deg);
+  }
+  .summary h2 { margin-top: 0; }
+  .summary ul { margin: 0; padding-left: 1.2em; }
+  h2 {
+    font: 800 24px/1.2 "Sniglet", sans-serif; letter-spacing: -0.02em;
+    margin: var(--space-4) 0 var(--space-1);
+  }
+  h2:first-child { margin-top: 0; }
+  p, ul { margin: 0 0 var(--space-2); }
+  li { margin-bottom: 6px; }
+  strong { font-weight: 700; }
+  a {
+    color: var(--plum); font-weight: 700;
+    text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px;
+    text-decoration-color: var(--lilac);
+    border-radius: 4px;
+    display: inline-block; transition: transform .25s var(--spring), opacity .2s ease;
+  }
+  a:hover { transform: translateY(-1px); text-decoration-color: var(--plum); }
+  a:active { transform: translateY(1px); opacity: .7; }
+  a:focus-visible { outline: 3px solid var(--plum); outline-offset: 3px; }
+  a.url { word-break: break-all; display: inline; }
+  footer { text-align: center; margin-top: var(--space-4); font-size: 15px; color: var(--plum-soft); }
+  @media (prefers-reduced-motion: reduce) { a { transition: none; } }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="star" viewBox="0 0 24 24"><path d="M12 2.5l2.8 6 6.5.7-4.9 4.4 1.4 6.4L12 16.8 6.2 20l1.4-6.4L2.7 9.2l6.5-.7z" fill="#ffe08a" stroke="#3e2f63" stroke-width="2" stroke-linejoin="round"/></symbol>
+</svg>
+<div class="wrap">
+  <header>
+    <div class="lives" aria-hidden="true">
+      <svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg>
+      <svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg>
+      <svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg>
+    </div>
+    <div><a class="brand" href="./">Nine Lives Inc.</a></div>
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated 30 September 2026</p>
+  </header>
+
+  <main class="card">
+    <section class="summary" aria-labelledby="short">
+      <h2 id="short">The short version</h2>
+      <ul>
+        <li>You never create an account or sign in. We never ask for your name, email or contacts.</li>
+        <li>Your game progress is saved only on your phone.</li>
+        <li>The game shows ads from Google AdMob. Google collects some device information to show and measure those ads.</li>
+        <li>In the EEA, the UK and Switzerland, the game asks for your consent before personalised ads, and you can change your choice any time.</li>
+      </ul>
+    </section>
+
+    <h2>Who we are</h2>
+    <p>Nine Lives Inc. is a mobile game made by an independent developer (“we”, “us”). This policy explains what information the game handles and why. Questions? Email <a href="mailto:amevesh@gmail.com">amevesh@gmail.com</a>.</p>
+
+    <h2>What the game saves on your phone</h2>
+    <p>The game keeps one save file with your progress and settings (your Whiskers, cats, upgrades and settings). It is stored in the game’s private storage on your device and is never sent to us. Uninstalling the game or clearing its data deletes it.</p>
+
+    <h2>Ads from Google AdMob</h2>
+    <p>The game is free and pays for itself with ads provided by Google AdMob. To show ads, count them and protect against fraud, Google’s ad software in the game may collect:</p>
+    <ul>
+      <li>your device’s advertising ID and other device identifiers</li>
+      <li>your IP address, which Google may use to estimate your general location</li>
+      <li>device and app details, such as phone model, Android version and game version</li>
+      <li>how you interact with ads, such as views and taps</li>
+      <li>diagnostic information about how ads load and perform</li>
+    </ul>
+    <p>Google uses this information to deliver ads, measure them, limit how often you see the same one, prevent fraud and, where you have allowed it, personalise ads. We never receive this information in a form that identifies you. We only see totals, like how many ads were shown.</p>
+    <p>Ads in the game are limited to content rated for general audiences with parental guidance (PG). Rewarded ads only play when you choose to watch one.</p>
+    <p>Learn how Google handles this data: <a class="url" href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> and <a class="url" href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li><strong>Consent (EEA, UK, Switzerland):</strong> the first time you play, the game asks whether Google may use your data for personalised ads. To change your answer later, tap <strong>Ad privacy choices</strong> on the Free treats screen.</li>
+      <li><strong>Advertising ID:</strong> on Android, open <strong>Settings → Google → Ads</strong> (or <strong>Settings → Privacy → Ads</strong>) to reset or delete your advertising ID.</li>
+      <li><strong>Google ad settings:</strong> manage how Google personalises ads at <a class="url" href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
+    </ul>
+
+    <h2>Information we collect ourselves</h2>
+    <p>None. The game has no accounts, no analytics of its own and no servers of ours. If you email us, we use your email address only to reply, and delete the conversation when it is no longer needed.</p>
+
+    <h2>Children</h2>
+    <p>The game is not directed at children under 13, and we do not knowingly collect personal information from them. If you believe a child under 13 has used the game in a way that shared personal information, email us and we will help remove it.</p>
+
+    <h2>Selling data</h2>
+    <p>We do not sell your personal information.</p>
+
+    <h2>Your rights</h2>
+    <p>Depending on where you live (for example under the GDPR, UK GDPR, South Africa’s POPIA or California’s CCPA), you may have the right to access, correct or delete personal information, or to object to how it is used. Because we hold no personal information about you, requests about ad data are best made to Google using the links above. You can also email us and we will help.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, we will update this page and the date at the top.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:amevesh@gmail.com">amevesh@gmail.com</a></p>
+  </main>
+
+  <footer>Nine Lives Inc. · <a href="./">Home</a></footer>
+</div>
+</body>
+</html>
